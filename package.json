@@ -2,14 +2,11 @@
   "name": "pizza-test-05",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Kostya778899.github.io/pizza-test-05",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
